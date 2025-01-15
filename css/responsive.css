@@ -1,0 +1,552 @@
+
+
+@media (max-width: 1550px) {
+    .main-header ul.navbar-nav {
+        gap: 20px;
+    }
+
+    .Header .navbar-light .navbar-brand img {
+        max-width: 250px;
+    }
+
+    .carousel-control-next {
+        right: 15px;
+    }
+    
+    .carousel-control-prev {
+        left: 15px;
+    }
+}
+
+
+@media (max-width: 1399px) {
+    header ul.navbar-nav li a {
+        color: var(--black) !important;
+        width: 100%;
+    }
+
+    #offcanvasNavbar li.nav-item {
+        border-bottom: 1px solid #dcdcdc;
+        padding-bottom: 10px;
+    }
+
+    /* .top-bar {
+        display: none;
+    } */
+
+    .main-header .navbar {
+        min-height: 60px;
+    }
+
+    .font-18 {
+        font-size: 18px;
+    }
+
+    .font-20 {
+        font-size: 18px;
+    }
+
+    .font-24 {
+        font-size: 20px;
+    }
+
+    .font-28 {
+        font-size: 24px;
+    }
+
+    .font-42 {
+        font-size: 36px;
+    }
+
+    .font-48 {
+        font-size: 38px;
+    }
+
+    .triangle-vector img {
+        width: 30px;
+        height: 30px;
+    }
+    section.companyHistory {
+        padding: 100px 0;
+    }
+    .commonBg {
+        height: unset;
+        padding: 100px 0;
+    }
+
+    section.center-text{
+        padding: 100px 0;
+    }
+
+    .footer-top {
+        padding: 60px 0;
+    }
+
+    section.ourPartners {
+        padding: 100px 0;
+    }
+    .partnerLogo {
+        padding-top: 30px;
+    }
+}
+
+
+
+
+@media (max-width: 1200px){
+
+    .footer-text {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    ul.social-links {
+        margin-top: 20px;
+    }
+    .hero-heading {
+        font-size: 50px;
+        line-height: 0.95;
+    }
+    .hero-heading::before {
+        width: 24px;
+        height: 24px;
+    }
+    .hero-heading span {
+        font-size: 35px;
+    }
+    .hero-txt {
+        font-size: 35px;
+        line-height: 1;
+        margin-top: 50px;
+    }
+    .form-section {
+        padding: 100px 0 80px;
+    }
+    .section-title {
+        font-size: 45px;
+    }
+    .section-content {
+        font-size: 21px;
+        margin-top: 35px;
+    }
+    .form-wrapper .btn-submit {
+        margin: 0px 0 60px;
+    }
+    section.center-text {
+        padding: 120px 0 150px 0;
+    }
+    .clip-img-section {
+        min-height: auto;
+    }
+
+    .clip-img-section .bgClipImg {
+        position: static;
+        max-width: 100%;
+    }
+    
+    .clip-img-section .bgClipImg img {
+        height: auto;
+        width: 100%;
+        /* max-height: 700px; */
+        object-fit: cover;
+        object-position: top center;
+    }
+
+    .clip-img-section .col-xl-8 {
+        padding-left: 0;
+    }
+
+    .namesec h2::after {
+        top: -22px;
+        border-right: 120px solid transparent;
+        border-top: 120px solid #F00E0E;
+    }
+    .cliptxt-title {
+        margin-bottom: 60px;
+        /* padding-left: 15px; */
+    }
+    .industries-wrapper p {
+        font-size: 30px;
+    }
+    .industries-wrapper.text-white {
+        display: grid;
+        grid-template-columns: 1fr 1fr auto;
+        gap: 0;
+        margin-top: 100px;
+    }
+    .industries-wrapper .mw-500, .industries-wrapper .mw-290 {
+        max-width: 100%;
+    }
+
+    /* homepage */
+    .wbImg {
+        max-width: 410px;
+    }
+    .namesec {
+        padding-left: 15px;
+    }
+    .copyrightLinks p, .copyrightLinks a {
+        font-size: 15px;
+    }
+
+
+}
+
+
+
+
+
+@media (max-width: 991px) {
+
+    #offcanvasNavbar {
+        width: fit-content;
+    }
+
+    ul.top-nav-list li a {
+        font-size: 14px;
+    }
+    ul.top-nav-list {
+        gap: 20px;
+        padding: 8px 0 0px;
+    }
+
+    .font-42 {
+        font-size: 30px;
+    }
+    .triangle-vector {
+        display: none;
+    }
+    .hero-section {
+        min-height: 650px;
+    }
+    .hero-heading {
+        font-size: 45px;
+        padding-top: 50px;
+    }
+    .hero-txt {
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .hero-heading::before {
+        width: 20px;
+        height: 20px;
+    }
+    .form-wrapper {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+    .section-title {
+        font-size: 35px;
+        line-height: 1.15;
+    }
+    .sup-heading {
+        font-size: 25px;
+        line-height: 1;
+    }
+    .featureBox-wrapper .feature-box {
+        width: 100%;
+        max-width: 48%;
+    }
+    .numberBox-wrapper .col-9 {
+        width: calc(100% - 50px);
+    }
+    .numberCol {
+        max-width: 50px;
+    }
+    .clip-img-section .bgClipImg img {
+        max-height: 700px;
+    }
+    .cliptxt-wrapper {
+        padding: 60px 0 10px;
+    }
+    .form-section {
+        padding: 70px 0 50px;
+    }
+    .form-wrapper .btn-submit {
+        margin: 0px 0 40px;
+    }
+    .brochure .img-wrapper {
+        margin-bottom: 10px;
+    }
+    section.center-text {
+        padding: 80px 0 100px 0;
+    }
+    .industries-wrapper p {
+        font-size: 25px;
+    }
+
+    /* homepage */
+
+    
+    .font-48 {
+        font-size: 30px;
+    }
+    .font-24 {
+        font-size: 18px;
+    }
+    .chSecTitle h2 {
+        margin-bottom: 20px;
+    }
+    .chSecDesc {
+        margin-bottom: 30px;
+    }
+    .textSec {
+        padding: 90px 0 30px;
+    }
+    .textSec h2.font-42 {
+        font-size: 24px;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+    ul.top-nav-list {
+        gap: 15px;
+        justify-content: center;
+    }
+    ul.top-nav-list .mob-none{
+        display: none;
+    }
+    .banner-left {
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    .banner-left img {
+        max-width: 100%;
+        width: 320px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .triangle-vector {
+        display: none;
+    }
+    .carousel-indicators {
+        bottom: 20px;
+        margin: 0;
+    }
+    .font-42 {
+        font-size: 28px;
+    }
+
+    .hero-section {
+        min-height: auto;
+        padding: 130px 0 100px;
+    }
+    .hero-heading span {
+        font-size: 25px;
+        line-height: 1;
+    }
+    .hero-heading {
+        font-size: 40px;
+        padding-top: 45px;
+        margin: 0;
+    }
+    .hero-txt {
+        font-size: 20px;
+        margin-top: 20px;
+        line-height: 1.2;
+    }
+    .sup-heading {
+        font-size: 22px;
+        line-height: 1.2;
+    }
+    .section-title {
+        font-size: 28px;
+    }
+    .section-content p {
+        margin-bottom: 15px;
+    }
+    .section-content {
+        font-size: 17px;
+        margin-top: 30px;
+    }
+    .form-wrapper .form-inp .inp-field {
+        margin-bottom: 10px;
+    }
+    .font-48 {
+        font-size: 30px;
+    }
+    section.center-text h2::after {
+        bottom: -10px;
+    }
+    section.center-text {
+        padding: 50px 0 70px 0;
+    }
+    .featureBox-wrapper .feature-box {
+        max-width: 100%;
+    }
+    .cliptxt-content p {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+    .cliptxt-content h3 {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+    .number {
+        font-size: 30px;
+    }
+    .numberCol {
+        max-width: fit-content;
+    }
+    .numberBox-wrapper .col-9 {
+        width: 100%;
+        /* padding-left: 0;
+        flex: unset; */
+    }
+    .numberBox-wrapper>.col-md-6>.row {
+        margin-bottom: 10px;
+        /* flex-wrap: nowrap; */
+    }
+    .industries-wrapper.text-white {
+        grid-template-columns: 1fr 0.6fr;
+    }
+    .industries-wrapper p {
+        font-size: 20px;
+        line-height: 1;
+    }
+    .triangle-img {
+        width: 10px;
+        margin-bottom: 0;
+    }
+    .partnerLogo {
+        width: 60%;
+        margin: auto;
+    }
+
+    /* homepage */
+    .banner-section .row {
+        height: 100%;
+        min-height: 100vh;
+        padding: 20px 0 20px;
+    }
+    ul.banner-list li {
+        max-width: 260px;
+    }
+    .textSec {
+        padding: 80px 0 20px;
+    }
+    section.companyHistory {
+        padding: 50px 0;
+    }
+    .companyHistory .row {
+        flex-direction: column-reverse;
+        row-gap: 40px;
+    }
+    .dark-btn {
+        font-size: 20px;
+        padding: 20px 0 8px;
+    }
+    .light-btn {
+        font-size: 20px;
+    }
+    .Header button.navbar-toggler .navbar-toggler-icon {
+        width: 1em;
+    }
+}
+
+
+@media (max-width: 575px){
+
+    ul.top-nav-list {
+        gap: 10px;
+    }
+    ul.top-nav-list li a {
+        font-size: 12px;
+    }
+
+    .Header .navbar-light .navbar-brand img {
+        max-width: 200px;
+    }
+    .clip-img-section .bgClipImg img {
+        max-height: 500px;
+    }
+    .industries-wrapper.text-white {
+        grid-template-columns: 1fr;
+        margin-top: 60px;
+    }
+    .namesec h2::before {
+        width: 100%;
+        max-width: calc(100vw - 35px);
+        top: 3px;
+        left: 5px;
+        transform: skew(-20deg);
+    }
+    .font-42 {
+        font-size: 20px;
+    }
+    .namesec h2 span::before {
+        left: 14px;
+    }
+    .namesec h2::after {
+        top: -12px;
+        border-right: 80px solid transparent;
+        border-top: 95px solid #F00E0E;
+    }
+    .cliptxt-title {
+        padding-left: 0;
+    }
+    .numberBox-wrapper .col-9 h4 {
+        font-size: 18px;
+    }
+    .cliptxt-content p {
+        font-size: 16px;
+    }
+    section.center-text {
+        padding: 50px 0 50px 0;
+    }
+    section.ourPartners {
+        padding: 60px 0;
+    }
+    .font-48 {
+        font-size: 25px;
+    }
+    .cliptxt-wrapper {
+        padding: 50px 0 20px;
+    }
+    .ourPartnerTop h2 {
+        margin-bottom: 0;
+    }
+    .copyrightLinks p, .copyrightLinks a {
+        font-size: 10px;
+    }
+    .footer-logo {
+        margin-bottom: 30px;
+    }
+    .footer-logo img {
+        object-fit: contain;
+        width: auto;
+        max-width: 230px;
+    }
+    .footer-top {
+        padding: 60px 0 20px;
+    }
+    .font-20 {
+        font-size: 16px;
+    }
+    .footer-list-wrapper li {
+        margin-bottom: 4px;
+        font-size: 16px;
+    }
+
+    /* homepage  */
+    .namesec {
+        padding-left: 0;
+    }
+    .textSec h2.font-42 {
+        font-size: 22px;
+    }
+}
+
+
+@media (max-width: 350px){
+
+    ul.top-nav-list {
+        gap: 7px;
+    }
+    ul.top-nav-list li a {
+        font-size: 11px;
+    }
+}

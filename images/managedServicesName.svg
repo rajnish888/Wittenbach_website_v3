@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="471.68" height="171.118" viewBox="0 0 471.68 171.118">
+  <defs>
+    <filter id="Path_104" x="0" y="30.063" width="471.68" height="94.747" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_46" data-name="Group 46" transform="translate(-234 -2098)">
+    <path id="Path_105" data-name="Path 105" d="M0,0H171.118L0,171.118Z" transform="translate(279 2098)" fill="#f00e0e"/>
+    <g transform="matrix(1, 0, 0, 1, 234, 2098)" filter="url(#Path_104)">
+      <path id="Path_104-2" data-name="Path 104" d="M34.68,11.464h419L419,88.21H0Z" transform="translate(9 24.6)" fill="#fff"/>
+    </g>
+    <text id="Managed_Services" data-name="Managed Services" transform="translate(279 2142.845)" fill="#272727" font-size="48" font-family="GranthaSangamMN-Bold, Grantha Sangam MN" font-weight="700"><tspan x="0" y="42">Managed Services</tspan></text>
+  </g>
+</svg>

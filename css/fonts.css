@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+@font-face {
+    font-family: 'Grantha Sangam MN';
+    src: url('../fonts/') format('woff2'),
+        url('../fonts/GranthaSangamMN-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Grantha Sangam MN';
+    src: url('../fonts/GranthaSangamMN-Regular.woff2') format('woff2'),
+        url('../fonts/GranthaSangamMN-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
